@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Courier New', Courier, monospace;
+}
+
+:root {
+  /* margins */
+  --normal_margin: 10px;
+
+  /* paddings */
+  --normal_padding: 10px;
+  --spacing_between_elements: 0.5rem;
+
+  /* colors */
+  --main_color: #000000;
+  --background_main_color: #000;
+  /* --background_page_color: #0a0a0a; */
+  --background_page_color: #171717;
+
+  --page_main_color: #000;
+  --secondary_color: #cb2957;
+  --third_color: #eeeeee;
+}
+
+p {
+  color: var(--third_color);
+}
+
+svg {
+  width: 1.5rem;
+  fill: var(--third_color);
+}
+
+.svg_button:hover {
+  transition: 250ms;
+  fill: var(--secondary_color);
+}
+
+.dark_theme {
+}
+
+.light_theme {
+}
