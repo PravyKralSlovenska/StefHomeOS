@@ -1,0 +1,17 @@
+.home_card_container {
+  background-color: #2b2b2b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.home_card_container:hover {
+  border-bottom: 2px solid var(--secondary_color);
+}
+
+.home_card_container > img {
+  --max_size: 3rem;
+  width: var(--max_size);
+  height: var(--max_size);
+}
