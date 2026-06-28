@@ -1,5 +1,5 @@
 # TODO:
 
-- [] testing
-- [] dark/white themes
-- [] urob si vlastnu theme
+- [] frontend testing
+- [] backend testing
+- [] backend server security

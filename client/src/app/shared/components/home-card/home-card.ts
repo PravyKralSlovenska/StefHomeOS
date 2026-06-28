@@ -1,5 +1,6 @@
 import { Component, input } from '@angular/core';
 import { Router } from '@angular/router';
+import { Icon } from '../icon/icon';
 
 interface I_HomeCard {
   title: string,
@@ -25,7 +26,7 @@ const CARD_MAP: Record<string, I_HomeCard> = {
 
 @Component({
   selector: 'app-home-card',
-  imports: [],
+  imports: [Icon],
   templateUrl: './home-card.html',
   styleUrl: './home-card.css',
 })
@@ -55,15 +56,12 @@ export class HomeCard {
     if (!def) {
       return {
         title: "Error",
-        svg_image: "svg/circle_xmark.svg",
+        svg_image: "error",
         router_path: "error"
       };
     }
 
-    return {
-      ...def,
-      svg_image: `svg/${def.svg_image}.svg`
-    }
+    return def;
   }
 }
 

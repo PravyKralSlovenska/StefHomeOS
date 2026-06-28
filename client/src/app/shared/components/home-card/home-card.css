@@ -9,9 +9,3 @@
 .home_card_container:hover {
   border-bottom: 2px solid var(--secondary_color);
 }
-
-.home_card_container > img {
-  --max_size: 3rem;
-  width: var(--max_size);
-  height: var(--max_size);
-}

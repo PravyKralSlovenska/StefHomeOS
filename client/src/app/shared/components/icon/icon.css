@@ -1,0 +1,8 @@
+/* :host {
+  display: inline-flex;
+} */
+
+.icon {
+  width: var(--icon_size);
+  height: var(--icon_size);
+}

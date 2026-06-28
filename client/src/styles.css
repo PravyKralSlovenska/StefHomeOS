@@ -32,13 +32,7 @@ p {
 }
 
 svg {
-  width: 1.5rem;
   fill: var(--third_color);
-}
-
-.svg_button:hover {
-  transition: 250ms;
-  fill: var(--secondary_color);
 }
 
 .dark_theme {
